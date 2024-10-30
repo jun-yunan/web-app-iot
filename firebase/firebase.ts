@@ -1,6 +1,6 @@
 import { ref, get } from 'firebase/database';
 
-import dbFirebase from './firebaseConfig';
+import dbFirebase from './config';
 
 export const getLedStatus = async () => {
   try {

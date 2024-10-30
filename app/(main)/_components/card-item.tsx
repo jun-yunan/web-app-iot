@@ -9,7 +9,7 @@ import {
 import { Slider } from '@/components/ui/slider';
 import React, { useEffect, useState } from 'react';
 
-import dbFirebase from '@/firebase/firebaseConfig';
+import dbFirebase from '@/firebase/config';
 import { ref, set } from 'firebase/database';
 import { Switch } from '@/components/ui/switch';
 import { useRouter } from 'next/navigation';
